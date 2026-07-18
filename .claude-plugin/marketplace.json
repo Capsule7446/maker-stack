@@ -1,0 +1,190 @@
+{
+  "name": "maker-stack",
+  "description": "Curated Claude Code plugins by Capsule7446 for backend, frontend, Git, Go performance, and Svelte quality.",
+  "owner": {
+    "name": "Capsule7446",
+    "email": "paullai0201@gmail.com"
+  },
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "backend-best-practices",
+      "description": "后端最佳实践插件：把 DDD 建模、Application 用例编排、CQRS 读模型、GoF 设计模式、系统读码和架构审查固化为 Agent 可重复执行、可门禁、可回溯的开发工序。",
+      "source": {
+        "source": "github",
+        "repo": "Capsule7446/backend-best-practices",
+        "ref": "v0.3.0"
+      },
+      "version": "0.3.0",
+      "author": {
+        "name": "Pauly",
+        "email": "paullai0201@gmail.com"
+      },
+      "homepage": "https://github.com/Capsule7446/backend-best-practices",
+      "repository": "https://github.com/Capsule7446/backend-best-practices",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "backend",
+        "best-practices",
+        "architecture",
+        "architecture-review",
+        "system-reading",
+        "ddd",
+        "domain-driven-design",
+        "bounded-context",
+        "aggregate",
+        "ports-and-adapters",
+        "cqrs",
+        "read-model",
+        "aggregation-view",
+        "sync-strategy",
+        "design-patterns",
+        "gof",
+        "creational-patterns",
+        "structural-patterns",
+        "behavioral-patterns",
+        "language-agnostic"
+      ]
+    },
+    {
+      "name": "consistent-frontend",
+      "description": "强一致、好维护的前端开发套件：DDD/Clean 定依赖方向 + Feature-Sliced Design 定结构 + Design System/状态机定语义一致。核心框架无关，含 React / Vue 3 / Svelte 适配。提供 consistent-frontend skill 与 /fe-build 命令。",
+      "source": {
+        "source": "github",
+        "repo": "Capsule7446/consistent-frontend",
+        "ref": "v0.1.0"
+      },
+      "version": "0.1.0",
+      "author": {
+        "name": "Pauly"
+      },
+      "homepage": "https://github.com/Capsule7446/consistent-frontend",
+      "repository": "https://github.com/Capsule7446/consistent-frontend",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "frontend",
+        "frontend-architecture",
+        "ddd",
+        "clean-architecture",
+        "feature-sliced-design",
+        "fsd",
+        "design-system",
+        "state-machine",
+        "react",
+        "vue",
+        "svelte",
+        "typescript",
+        "maintainability"
+      ]
+    },
+    {
+      "name": "git-workflow",
+      "description": "把通用 Git 工作流固化成 Agent 可重复执行、可门禁、可回溯的工序:分支模型决策(默认 Trunk-Based / GitHub Flow,Git Flow 备选)、worktree 隔离、原子提交与 Conventional Commits、基线同步、PR 交付、合并清理与误操作救援。以 risk 安全分级(safe/caution/danger)守护每一步状态变更,平台无关(GitHub / GitLab / Bitbucket / 裸远端),SKILL/COMMAND/WORKFLOW 三层分明。",
+      "source": {
+        "source": "github",
+        "repo": "Capsule7446/git-workflow",
+        "ref": "v0.1.0"
+      },
+      "version": "0.1.0",
+      "author": {
+        "name": "Pauly"
+      },
+      "homepage": "https://github.com/Capsule7446/git-workflow",
+      "repository": "https://github.com/Capsule7446/git-workflow",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "git",
+        "git-workflow",
+        "trunk-based",
+        "github-flow",
+        "git-flow",
+        "branching-strategy",
+        "conventional-commits",
+        "commit-message",
+        "atomic-commits",
+        "git-worktree",
+        "rebase",
+        "pull-request",
+        "history-recovery",
+        "reflog"
+      ]
+    },
+    {
+      "name": "svelte-quality-suite",
+      "description": "Svelte 代码质量套件:17 个单一维度技能(响应性、组件架构、状态生命周期、渲染/SSR、数据流、网络缓存、计算效率、Bundle、Web Vitals、类型、测试、安全、可观测性、可维护性、契约、CI/发布、容量)+ 1 个编排技能 orchestrate-svelte-quality。统一路由、去重、证据分级、加权评分、门禁与报告契约,支持 audit / optimize / audit-optimize 三种模式。",
+      "source": {
+        "source": "github",
+        "repo": "Capsule7446/svelte-quality-suite",
+        "ref": "v0.1.0"
+      },
+      "version": "0.1.0",
+      "author": {
+        "name": "Pauly"
+      },
+      "homepage": "https://github.com/Capsule7446/svelte-quality-suite",
+      "repository": "https://github.com/Capsule7446/svelte-quality-suite",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "svelte",
+        "sveltekit",
+        "svelte-5",
+        "runes",
+        "code-quality",
+        "code-review",
+        "audit",
+        "performance",
+        "web-vitals",
+        "reactivity",
+        "ssr",
+        "hydration",
+        "bundle",
+        "typescript",
+        "testing",
+        "security",
+        "observability",
+        "maintainability"
+      ]
+    },
+    {
+      "name": "go-performance-skills",
+      "description": "Go 性能工程技能套件:16 个单一维度原子技能(算法、CPU/编译器、分配与复制、内存/GC、数据布局、缓存、同步竞争、goroutine 调度、批处理队列、I/O、网络 HTTP、序列化、数据库、可观测性、运行时构建、负载容量)+ 1 个全维度编排器 go-optimize-all + 共享核心 _go-perf-core(工件协议、评分标准、实验策略、安全门禁、JSON schema 与确定性脚本)。默认只读 audit 采证评分,明确授权后按依赖顺序 optimize 并复测。",
+      "source": {
+        "source": "github",
+        "repo": "Capsule7446/go-performance-skills",
+        "ref": "v0.1.0"
+      },
+      "version": "0.1.0",
+      "author": {
+        "name": "Pauly"
+      },
+      "homepage": "https://github.com/Capsule7446/go-performance-skills",
+      "repository": "https://github.com/Capsule7446/go-performance-skills",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "go",
+        "golang",
+        "performance",
+        "performance-engineering",
+        "optimization",
+        "profiling",
+        "pprof",
+        "benchmark",
+        "memory",
+        "gc",
+        "goroutine",
+        "concurrency",
+        "allocation",
+        "cache",
+        "database",
+        "observability",
+        "load-testing",
+        "capacity"
+      ]
+    }
+  ]
+}
