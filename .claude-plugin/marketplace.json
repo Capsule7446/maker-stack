@@ -155,9 +155,9 @@
       "source": {
         "source": "github",
         "repo": "Capsule7446/go-performance-skills",
-        "ref": "v0.1.1"
+        "ref": "v0.2.0"
       },
-      "version": "0.1.1",
+      "version": "0.2.0",
       "author": {
         "name": "Pauly"
       },
