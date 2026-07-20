@@ -13,9 +13,9 @@
       "source": {
         "source": "github",
         "repo": "Capsule7446/backend-best-practices",
-        "ref": "v0.3.1"
+        "ref": "v0.4.0"
       },
-      "version": "0.3.1",
+      "version": "0.4.0",
       "author": {
         "name": "Pauly",
         "email": "paullai0201@gmail.com"
@@ -85,9 +85,9 @@
       "source": {
         "source": "github",
         "repo": "Capsule7446/git-workflow",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "Pauly"
       },
